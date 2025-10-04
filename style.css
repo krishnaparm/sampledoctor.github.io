@@ -204,11 +204,11 @@
     flex-direction: column;
     background: #1e1e2f;
     position: absolute;
-    top: 90px; /* height of navbar */
+    top: 40px; /* height of navbar */
     right: 0;
     width: 200px;
     padding: 10px;
-    padding-top: 20%
+    padding-top: 50%
   }
   .nav-links.show {
     display: flex;
