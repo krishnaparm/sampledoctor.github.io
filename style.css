@@ -204,7 +204,7 @@
     flex-direction: column;
     background: #1e1e2f;
     position: absolute;
-    top: 60px; /* height of navbar */
+    top: 90px; /* height of navbar */
     right: 0;
     width: 200px;
     padding: 10px;
