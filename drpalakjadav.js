@@ -21,3 +21,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
     document.getElementById("response").innerText = "Error sending message.";
   });
 });
+
+function toggleMenu() {
+  document.getElementById("navLinks").classList.toggle("show");
+}
