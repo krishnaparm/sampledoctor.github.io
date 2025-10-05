@@ -7,14 +7,14 @@
 
 /* box1 */
 
-/* .navbar{
+.navbar{
     height: 40px;
     background-color: #5250e3;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-} */
+}
 .nav-logo{
     height: 50px;
     width: 100px;
@@ -48,7 +48,7 @@
   justify-content: space-evenly;
   /* margin-top: 2px; */
   font-size: 1rem;
-  position: fixed; /*Set the navbar to fixed position */
+  position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
 }
 .location-icon{
@@ -88,7 +88,7 @@
     text-align: right;
     justify-content: space-evenly;
     margin-top: 40px;
-    /* position: fixed;  Set the navbar to fixed position */
+    position: fixed; /* Set the navbar to fixed position */
     /* top: 0; Position the navbar at the top of the page */
 }
 .panel-option{
@@ -167,59 +167,7 @@
 }
 
 
-/* new navigation bar */
 
-/* Basic navbar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #1e1e2f;
-  padding: 10px 20px;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.nav-links li a {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.hamburger {
-  display: none;
-  font-size: 24px;
-  color: white;
-  cursor: pointer;
-}
-
-/* MOBILE VIEW */
-@media screen and (max-width: 768px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    background: #1e1e2f;
-    position: absolute;
-    top: 40px; /* height of navbar */
-    right: 0;
-    width: 200px;
-    padding: 10px;
-    padding-top: 50%
-  }
-  .nav-links.show {
-    display: flex;
-  }
-  .hamburger {
-    display: block;
-  }
-}
-
-
-/* new navigation bar end */
 
 /* Footer */
 
@@ -671,6 +619,3 @@ ul a {
     }
 
  /* ******************************* CONTACT SECTION GPT END ***************************** */
-
-
- 
